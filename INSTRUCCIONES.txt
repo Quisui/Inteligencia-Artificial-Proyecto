@@ -1,0 +1,29 @@
+				### Instrucciones para entrenar una RNA ###
+			### Reconocer el nivel de madurez de una fresa ###
+
+Se deben clasificar las imagenes deseadas en 3 carpetas: 
+FresasAmarillas, FresasMaduras y FresasPodridas. 
+Estás deben estar contenidas en la misma carpeta que los archivos .py
+
+En este caso estas carpetas ya incluyen algunas imagenes para poder entrenar la RNA.
+También se incluye una carpeta llamada Test, la cual incluye imagenes para poder probar el funcionamiento de la Red Neuronal.
+
+Además se deben crear otras 3 carpetas con los nombres:
+FresasRecortadasA, FresasRecortadasM FresasRecortadasP
+
+Para el entrenamiento de una red neuronal se debe seguir el siguiente orden de ejecución (ya sea en el IDLE de python y escribiendo "python nombre_de_archivo.py"):
+1. Ejecutar el archivo "Recortar.py"
+   Esto generará imagenes en las carpetas que antes estaban vacías.
+2. Ejecutar el archivo "Entradas.py"
+   Esto generará el archivo "Entrenamiento.csv"
+3. Ejecutar el archivo "Entrenamiento.py"
+   Esto generará el archivo "RNAFresa.tmt"
+4. Ejecutar el archivo "Comprobación.py"
+   Este programa solicitará la dirección de la foto a analizar.
+   Esto generará los archivos "RecorteFresaPrueba.jpg" y "PruebaFresa.csv"
+
+
+ADVERTENCIA: si el archivo "Entradas.py" genera algún error se deben eliminar todos los archivos que no se puedan visualizar ni tengan vista previa.
+
+										Carlos Enrique Alvarado Legrand, 15487-15
+										José Mariano Rodríguez Vallejo, 15002-15
